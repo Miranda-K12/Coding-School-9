@@ -1,19 +1,23 @@
 /* media 1024*/
 @media (max-width:1024px){
-.hero-section{
+.wrap-box{
 flex-direction: column;
 }
-
-
-
-
-
-
-
-
-
-
-    .flex-block {
+.left-block{
+width:100%;
+margin-bottom: 82px;
+text-align: center;
+}
+.action{
+    justify-content: center;
+}
+.right-block{
+   width:100%; 
+}
+.action-paraghrap{
+    width:370px;
+}
+.flex-block {
     flex-direction: column;
     gap: 64px;
 }
@@ -28,22 +32,67 @@ flex-direction: column;
 .advertise-header, .advertise-paraghraps{
     width: 415.5px;
 }
-
-
-
-
-
-
-
-
+.columns{
+    flex-direction: column;
+    gap:48px;
+    margin: 0 auto;
 }
-/*media 768*/
-@media (max-width: 768px){
+.subscribe{
+    display: none;
+}
+.cta-text{
+    width:600px;
+}
+}
+/*media 744*/
+@media (max-width: 744px){
+    .nav-links{
+    gap:22px;
+}
+.hero-header{
+font-size: 40px;
+}
+.hero-btn{
+    width: 90px;
+    height:40px;
+}
+.action{
+    flex-direction: column;
+}
 .right-block-advertise{
    flex-direction: column;
    text-align: center;
 }
 .advertise-header, .advertise-paraghraps{
 width:100%;
+}
+.features{
+    flex-direction: column;
+    text-align: center;
+}
+.cta-text{
+    width:100%;
+}
+}
+/*media 375px*/
+@media (max-width: 375px){
+    .hidden{
+        display: none;
+    }
+    .logo{
+        width:72px;
+        height:19px;
+    }
+    .white-logo{
+        margin: 0 auto;
+    }
+    .action-paraghrap{
+    width:327px;
+}
+.cta-text{
+    width:247px;
+}
+.cta-header{
+    font-size: 28px;
 }
 }
