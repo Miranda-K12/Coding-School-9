@@ -27,7 +27,7 @@
         </div>
 </header>
  <section class="section-box hero-section">
-    <div class="left block">
+    <div class="left-block">
         <h1 class="hero-header">Medium length display headline</h1>
         <p class="hero-paraghrap">Separated they live in Bookmarks right at the coast of the famous Semantics, large language </p>
          <div class="action">
@@ -38,7 +38,12 @@
     </div>
 </div>
         <div class="right-block">
-            <img src="images/sofa.png" alt="white sofa" class="hero-img">
+            <picture>
+   <source media="(min-width:1024px)" srcset="images/img-4.png">
+  <source media="(min-width:744px)" srcset="images/img-3.png">
+  <source media="(min-width:375px)" srcset="images/img-2.png">
+  <img src="images/img-1.png" class="hero-image" alt="white-sofa">
+</picture>
         </div>
  </section>
 <section class="container">
@@ -66,7 +71,12 @@
 <section class="advertise-section">
      <div class="section-box flex-block">
       <div class="left-block-advertise">
-         <img src="images/img.jpg" alt="white wall with shelves" class="advertise-img">
+          <picture>
+   <source media="(min-width:1024px)" srcset="images/img-8.jpg">
+  <source media="(min-width:744px)" srcset="images/img-7.jpg">
+  <source media="(min-width:375px)" srcset="images/img-6.jpg">
+  <img src="images/img-5.jpg" class="advertise-img" alt="white wall with shelves">
+</picture>
     </div>
         <div class="right-block-advertise">
             <h1 class="advertise-header">Long headline on two lines to turn your visitors into users and achieve more</h1>
@@ -80,41 +90,58 @@
         </div>
     </div>
 </section>
-
- <footer>
-    <div class="footer">
-        <div class="section-box">
-        <div class="footer-column">
-            <div class="footer-logo">
-            <img src="images/logo-2.svg" alt="logo" class="logo">
+<section class="cta">
+     <picture>
+   <source media="(min-width:1024px)" srcset="images/cta-4.jpg">
+  <source media="(min-width:744px)" srcset="images/cta-3.jpg">
+  <source media="(min-width:375px)" srcset="images/cta-2.jpg">
+  <img src="images/cta-1.jpg" class="cta-img" alt="house">
+</picture>
+<div class="cta-text">
+    <p class="cta-small-header">Tagline</p>
+    <h3 class="cta-header">Long headline to turn your visitors into users</h3>
+<div class="action-btn white">
+          <a href="#">Action</a>
         </div>
-        <div class="columns">
-         <div class="footer-column">
-          <h5>First column</h5>
-            <a href="#">First page</a>
-            <a href="#">Second page</a>
-            <a href="#">Third</a>
-            <a href="#">Fourth</a>
-          </div>
-          <div class="footer-column">
-          <h5>Second</h5>
-            <a href="#">Fifth page</a>
-            <a href="#">Sixth page</a>
-            <a href="#">Eighth</a>
-          </div>
-    <div class="footer-column">
-          <h5>Third</h5>
-            <a href="#">Fifth page</a>
-            <a href="#">Sixth page</a>
-            <a href="#">Eighth</a>
-          </div>
- <div class="footer-column">
-          <h5>Subscribe</h5>
-            <p class="footer-paraphrap">Join our newsletter to stay up to date on features and releases</p>
-          </div>
-          </div>
-         </div>
-         </div>
- </footer>
+</div>
+</section>
+ <footer>
+        <div class="section-box columns">
+            <div class="white-logo">
+                <img src="images/logo-white.svg" alt="white-logo" class="logo">
+            </div>
+            <div class="footer-text">
+            <div class="footer-column">
+                <h5 class="footer-header">First column</h5>
+                <ul class="text-list">
+                    <li>First page</li>
+                    <li>Second page</li>
+                    <li>Third</li>
+                    <li>Fourth</li>
+                </ul>
+            </div>
+             <div class="footer-column">
+                  <h5 class="footer-header">Second</h5>
+                  <ul class="text-list">
+                    <li>Fifth page</li>
+                    <li>Sixth page</li>
+                    <li>Eighth</li>
+                </ul>
+            </div>
+             <div class="footer-column">
+                <h5 class="footer-header">Third</h5>
+                <ul class="text-list">
+                    <li>Fifth page</li>
+                    <li>Sixth page</li>
+                    <li>Eighth</li>
+                </ul>
+            </div>
+             <div class="footer-column">
+                 <h5 class="footer-header">Subscribe</h5>
+                 <p class="sub-text">Join our newsletter to stay up to date on features and releases</p>
+            </div>
+            </div>
+</div>
+</footer>
 </body>
 </html>

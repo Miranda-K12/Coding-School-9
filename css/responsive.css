@@ -1,5 +1,18 @@
 /* media 1024*/
 @media (max-width:1024px){
+.hero-section{
+flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
     .flex-block {
     flex-direction: column;
     gap: 64px;
@@ -15,6 +28,14 @@
 .advertise-header, .advertise-paraghraps{
     width: 415.5px;
 }
+
+
+
+
+
+
+
+
 }
 /*media 768*/
 @media (max-width: 768px){
