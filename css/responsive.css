@@ -1,0 +1,28 @@
+/* media 1024*/
+@media (max-width:1024px){
+    .flex-block {
+    flex-direction: column;
+    gap: 64px;
+}
+.left-block-advertise{
+    width:100%;
+}
+.right-block-advertise{
+    width:100%;
+    display: flex;
+    column-gap: 129px;
+}
+.advertise-header, .advertise-paraghraps{
+    width: 415.5px;
+}
+}
+/*media 768*/
+@media (max-width: 768px){
+.right-block-advertise{
+   flex-direction: column;
+   text-align: center;
+}
+.advertise-header, .advertise-paraghraps{
+width:100%;
+}
+}
