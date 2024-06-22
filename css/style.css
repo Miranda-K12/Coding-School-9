@@ -20,6 +20,9 @@ height: 27px;
     font-size: 16px;
     font-weight: 500;
 }
+.hidden{
+    display: none;
+}
 /*hero-section*/
 .wrap-box{
     background-color: #FFFFFF;
@@ -91,7 +94,7 @@ cursor: pointer;
     gap: 30px;
     max-width: 1140px;
     margin: 0 auto;
-    width: 86%;
+    width: 90%;
 }
 .container{
     width:100%;
@@ -124,7 +127,6 @@ line-height: 24px;
     background-color: #000000;
     padding:96px 0;
 }
-
 .flex-block{
     max-width: 1140px;
     width:90%;
@@ -148,7 +150,6 @@ line-height: 24px;
     align-items: center;
     column-gap: 133px;
 }
-
 .advertise-header{
     color:#FFFFFF;
     font-size: 24px;
@@ -239,10 +240,10 @@ footer{
     width:90%;
     margin: 0 auto;
 }
-.columns, .footer-text{
+.columns, 
+.footer-text{
 display: flex;
 justify-content: space-between;
-align-items: top;
 }
 .footer-header{
 font-size: 16px;

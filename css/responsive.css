@@ -2,11 +2,15 @@
 @media (max-width:1024px){
 .wrap-box{
 flex-direction: column;
+text-align: center;
 }
 .left-block{
 width:100%;
 margin-bottom: 82px;
-text-align: center;
+}
+.hero-text{
+    max-width:630px;
+    margin: 0 auto;
 }
 .action{
     justify-content: center;
@@ -73,13 +77,23 @@ width:100%;
 .cta-text{
     width:100%;
 }
-.hidden{
-        display: none;
-    }
+
 }
 /*media 375px*/
 @media (max-width: 375px){
-    
+    .nav-menu,
+    .black{
+        display: none;
+    }
+    header{
+        padding:20px 21px 20px 24px;
+        height:65px;
+    }
+    .burger-bar{
+        display: block;
+        width:25px;
+        height:25px;
+    }
     .logo{
         width:72px;
         height:19px;
