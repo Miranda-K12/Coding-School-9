@@ -162,8 +162,15 @@ padding-bottom: 21px;
 .container{
     padding:24px 0;
 }
+.left-block-advertise{
+    height:195px;
+}
+.cta{
+    height:500px;
+}
 .cta-text{
     width:247px;
+    height:232px;
 }
 .cta-header{
     font-size: 28px;
@@ -174,5 +181,8 @@ padding-bottom: 21px;
 }
 footer{
      padding:50px 0;
+}
+.footer-header{
+    text-align: center;
 }
 }
